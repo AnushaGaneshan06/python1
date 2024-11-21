@@ -26,70 +26,93 @@
 
 # ===========================================================================================================================
 
-
-
 def display_option():
-    print("Transaction")
-    print("================")
-    print("1. View Transaction")
-    print("2. Add new Transaction")
-    print("3. Edit Existing Transaction")
-    print("4. Delete Transaction")
-    print("5. View Total Balance")
-    print("6.Exit")
+    print("transaction manager")
+    print("=================")
+    print("1. View transaction")
+    print("2. Add new transaction")
+    print("3. Edit transaction")
+    print("4. delete transaction")
+    print("5. Total balance transaction")
+    print("6. Exit")
+
+def view_transcation(transactions):
+    if not transactions:
+        print("transaction is empty")
+    else:
+        for i, transaction in enumerate(transactions):
+            print(f"{i + 1} {transaction['category']} - {transaction['amount']} - {transaction['description']}")
 
 
-def  view_transaction():
-    pass
+def  add_new_transaction(transactions):
+    category = input("Enter the category: ")
+    amount = float(input("enter the amount: "))
+    description = input("enter the description:")
+    transactions.append({"category":category, "amount":amount, "description": description})
+    print("the transaction is updated successfully")
+
+    
+
+def edit_transaction(transactions):
+    view_transcation(transactions)
+    index = int(input("enter the index number: ")) -1
+    if 0 <= index < len(transactions):
+        category = input(f"enter new category(current:{transactions[index]['category']}")  
+        amount = float(input(f"enter the new amount (current:{transactions[index]['amount']})"))
+        description = input(f"enter the new description (current:{transactions[index]['description']})")
+        transactions[index] = ({"category":category, "amount":amount, "description":description})
+        print("transaction updated")
+
+    else:
+        print("invalid")
 
 
 
-def add_new_transaction():
-    pass
+def delete_transaction(transcations):
+    view_transcation(transcations)
+    index = int(input("enter the index value: ")) -1
+    if 0 <= index < len(transcations):
+        deleted = transcations.pop(index)
+        print(f"{deleted} was deleted")
+    else:
+        print("invalid")
+    
 
 
-
-def  edit_transaction():
-    pass
-
-
-def  delete_transaction():
-    pass
-
-def total_balance_transaction():
-    pass
-
+def  total_balance_transaction(transactions):
+    total = sum(transaction["amount"] for transaction in transactions)
+    print(f"\nTotal Balance: {total}")
 
 
 
 def main():
-    transaction = {}
+    transactions = []
 
     while True:
         display_option()
-        choice = input("Enter the Choice between (1 -5 ): ")
+        choice = input("enter the choice (1 -5 ): ")
+
 
         if choice == "1":
-            view_transaction()
+            view_transcation(transactions)
 
         elif choice == "2":
-            add_new_transaction()
+            add_new_transaction(transactions)
 
         elif choice == "3":
-            edit_transaction()
+            edit_transaction(transactions)
 
         elif choice == "4":
-            delete_transaction()
+            delete_transaction(transactions)
 
         elif choice == "5":
-            total_balance_transaction()
-        
+            total_balance_transaction(transactions)
+
         elif choice == "6":
             print("exit")
             break
-
         else:
-            print("invalid choice")
+            print("enter valid choice")
 
 
 
