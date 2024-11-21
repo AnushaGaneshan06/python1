@@ -103,3 +103,96 @@ def main():
 
 if __name__ == "__main__":
     main()
+
+
+
+
+
+# =============================================================================================================================
+
+# method 2
+
+def display_options():
+    print("Notes Remainder")
+    print("==============")
+    print("1. display the notes")
+    print("2. Add Notes")
+    print("3. Search Notes")
+    print("4. Delete Notes")
+    print("5. Exit")
+    print("===============")
+
+def view_note(notes):
+    if not notes:
+        print("notes are empty")
+    else:
+        print("Notes")
+        for id, (title, content) in notes.items():
+            print(f"Note {id} : {title} - {content}")
+
+
+def add_note(notes):
+    note_id = len(notes) + 1
+    title = input("Enter the title: ")
+    content = input("Enter the content: ")
+
+    notes[note_id] = (title, content)
+    print(f"The note title {title} was added successfully")
+
+
+
+def search_note(notes):
+    title = input("Enter the title to search: ")
+
+    if not notes:
+        print("No notes found")
+        
+    else:
+        for note_id, (note_title, note_content) in notes.items():
+            if title in note_title:
+              print(f"Found note {note_id}: {note_title}-{note_content}")
+              return
+        print("not found title")
+            
+
+def delete_note(notes):
+    note_id = int(input("Enter the id to delete: "))
+
+    if note_id in notes:
+        del notes[note_id]
+        print(f"note with id {note_id} deleted")
+    else:
+        print(f"No not found with ID {note_id}")
+
+
+
+def main():
+    notes = {}
+
+
+    while True:
+        display_options()
+        choice = input("Enter the choice (1 -5 ):")
+
+        if choice == "1":
+            view_note(notes)
+
+        elif choice == "2":
+            add_note(notes)
+        
+        elif choice == "3":
+            search_note(notes)
+
+        elif choice == "4":
+            delete_note(notes)
+
+        elif choice == "5":
+            print("Exit")
+            break
+
+        else:
+            print("Enter the valid choice ... ")
+
+
+if __name__ == "__main__":
+    main()
