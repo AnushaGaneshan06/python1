@@ -1,6 +1,6 @@
 # python 
 
-Python excersie 
+Python Excerise 
 
 
  
