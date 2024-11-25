@@ -366,7 +366,9 @@ Python Conditional Statements Questions:
    - Check if the person dictionary has a skills key, if so check if the person has 'Python' skill and print out the result.
    - If a person’s skills only include JavaScript and React, print 'He is a front-end developer'. If the person has Node, Python, and MongoDB, print 'He is a backend developer'. If the person has React, Node, and MongoDB, print 'He is a fullstack developer'. Else print 'unknown title'.
 
+
 ---------------------------------------------------------------------------------------------------------------------------------
+
 
 Python Control Statements Questions:
 =====================================
