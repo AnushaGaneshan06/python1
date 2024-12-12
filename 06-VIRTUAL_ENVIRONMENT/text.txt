@@ -30,3 +30,16 @@ UNIT TESTING THE MODULE:
 1. PYLINT RUN IN TERMINAL: RATE THE CODE
 
 2. pylint file name => pylint test.py
+
+
+
+
+
+
+SQL METHODS:
+cmd :
+1. myqsl --version
+2. mysql -u root -p => user and password
+3.show databases
+4. create database database_name (eg: create database data1db;)
+5.exit
