@@ -1,0 +1,7 @@
+CONTROL + C = QUIT
+
+1. SHOW THE REQUIREMENTS FOR THE MODULE
+*  pip freeze > requirements.txt 
+
+2. INSTALL ALL PACKAGE IN REQUIREMENTS FILE:
+pip install -r requirements.txt
