@@ -18,7 +18,7 @@ def index():
 @app.route("/hello")  
  # Function to handle GET requests to the root path "/"
 def index2():
-    return "Hi this the python flask framework apllication"
+    return "Hi this is python flask framework application"
 
 
 

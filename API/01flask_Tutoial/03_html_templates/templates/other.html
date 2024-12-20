@@ -1,0 +1,23 @@
+{% extends "base.html" %}
+{% block title %} Other Page {% endblock %}
+
+{% block content %}
+<h1>FILTERS</h1>
+<!-- upper function  -->
+<!-- IN FILTER TO INSERT THE BUILT INF UNCTION WE NEED TO PIPE SYMBOL (|) -->
+<p>{{some_text | upper}}</p>
+<p>{{some_text | lower}}</p>
+<p>{{some_text | title}}</p>
+<p>{{some_text | replace("l", "L")}}</p>
+
+<!-- #CUSTOM FILTER  -->
+<!-- # in main create the reverse string -->
+<p>{{some_text | reverse_string}}</p>
+
+<p>{{some_text | repeat_filter}}</p>
+<p>{{some_text | repeat_filter(4)}}</p>
+<!-- can also put number specify here -->
+
+<p>{{some_text | alternate_case}}</p>
+
+{% endblock %}
