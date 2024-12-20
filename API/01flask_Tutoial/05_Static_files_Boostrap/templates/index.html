@@ -1,0 +1,16 @@
+{% extends "base.html" %}
+{% block title %}INDEX PAGE{% endblock %}
+
+{% block content %}
+<h1>HI THIS ANUHSA</h1>
+
+<img src="{{ url_for('static', filename='images/coffee-hero-section.png') }}"
+    alt="Text" />
+
+<p class="special">Heloo</p>
+
+<a href="#" class="btn bg-success">Button</a>
+
+<script
+    src="{{ url_for('static', filename='js/bootstrap.js') }}"></script>
+{% endblock %}
