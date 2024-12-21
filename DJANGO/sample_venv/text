@@ -1,0 +1,17 @@
+1. sample folder
+2. make the current folder in terminal
+3. create the project in terminal => django -admin startproject "Own project name"
+4. cd my_tennis_club
+5. py manage.py startapp members
+
+** setting => installed app => "members", **
+
+6. member => view.py (write code)
+
+7. tennis_club inside=> view (write code)
+8. create urls.py file inside members => (paste code)
+9. tennis_clib folder  => urls.py (paste code)
+
+10. py manage.py runserver => run the program
+
+
