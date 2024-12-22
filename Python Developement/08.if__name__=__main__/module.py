@@ -1,4 +1,4 @@
-import main 
+import Streamlit.main as main 
 
 # SEE THE __NAME __  CHANGE INTO THE "MAIN" AS PER PYTHON FILE NAME
 
