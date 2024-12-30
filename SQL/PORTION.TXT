@@ -1,0 +1,38 @@
+# MySQL Overview
+
+1. MySQL Introduction + Installation  
+   - Windows Installation  
+   - MAC OS Installation  
+-----------------------------------------1️⃣SQL-----------------------------------------------
+2. Databases  
+3. Tables  
+4. Insert Rows  
+5. Select  
+6. Update & Delete  
+7. Autocommit, Commit, Rollback  
+8. Current_Date() & Current_Time()  
+9. Unique  
+10. Not Null  
+11. Check  
+12. Default  
+
+-----------------------------------------2️⃣SQL -----------------------------------------------
+13. Primary Keys  
+14. Auto_Increment  
+15. Foreign Keys  
+16. Joins  
+17. Functions  
+18. And, Or, Not  
+19. Wild Cards  
+20. Order By  
+21. Limit  
+22. Unions  
+23. Self Joins  
+24. Views  
+25. Indexes  
+26. Subqueries  
+27. Group By  
+28. Rollup  
+29. On Delete  
+30. Stored Procedures  
+31. Triggers  
