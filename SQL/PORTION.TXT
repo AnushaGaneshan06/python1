@@ -27,7 +27,10 @@
 20. Order By  
 21. Limit  
 22. Unions  
-23. Self Joins  
+
+---------------------------------3️⃣ SQL -------------------------------------------------------  
+
+23. Self Joins
 24. Views  
 25. Indexes  
 26. Subqueries  
