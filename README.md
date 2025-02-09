@@ -1,115 +1,148 @@
 # Python Learning & Projects
 
-Welcome to my GitHub! This repository is a collection of **Python learning** resources, projects, and topics. Below is an organized view of the materials I’ve worked on in the past months. Whether you’re a beginner or an advanced Python developer, you’ll find helpful content here to improve your skills!
+Welcome to my GitHub repository! This collection includes a wide range of Python topics, from basic questions to advanced concepts and projects. If you are preparing for interviews or looking to deepen your Python knowledge, you're in the right place.
 
 ---
 
-## 🧑‍💻 **Python Interview Questions**
-A compilation of essential Python interview questions, covering the most asked topics to help you prepare for your next job interview.
+## 🧑‍💻 **Python Basic Concepts**
+
+Start with the fundamentals! These notebooks cover essential Python concepts and questions that will help you solidify your understanding of the language.
+
+- **00 Python Basic Question**  
+  Fundamental questions on Python basics.
+  
+- **01 Python Variables & Operators**  
+  Understanding variables and operators in Python.
+  
+- **02 Python String and Input**  
+  Mastering string operations and handling input in Python.
+  
+- **03 Python Lists Questions**  
+  All about Python lists and their use cases.
+  
+- **04 Python Tuple Questions**  
+  Get a deep understanding of Python tuples.
+  
+- **05 Python Sets Questions**  
+  Learn how to use sets in Python.
+  
+- **06 Python Dictionary Questions**  
+  Focus on Python dictionaries for efficient data management.
+  
+- **07 Python Conditional Statements**  
+  Covering if-else, elif conditions in Python.
+  
+- **08 Python Control Statements Questions**  
+  Explore loops and control flow mechanisms in Python.
+  
+- **09 Functions**  
+  Dive into Python functions and their various types.
+  
+- **10 Python OOPs Questions**  
+  Questions related to Object-Oriented Programming (OOP) concepts in Python.
+  
+- **11 Inheritance, Polymorphism, and Encapsulation**  
+  Understand core OOP concepts in-depth.
+  
+- **12 Easy Questions**  
+  Beginner-friendly Python questions to build your foundation.
+  
+- **13 Medium Questions**  
+  Intermediate questions to challenge your Python knowledge.
+  
+- **14 Hard Questions**  
+  Advanced Python problems for mastering the language.
+  
+- **15 Tricky Questions**  
+  Tackle some of the trickiest Python problems that test your problem-solving abilities.
 
 ---
 
-## 📚 **Sample and Problem (YouTube)**
-Explore Python problems and challenges, along with video tutorials on YouTube for visual learners.
+## 🧑‍💻 **Advanced Python Concepts**
+
+Take your Python skills to the next level with these advanced topics:
+
+### 🔧 **Functions and Methods**
+Learn how to use functions and advanced features in Python.
+
+- **00 Functions**  
+  All about functions in Python.
+  
+- **01 Function.ipynb**  
+  A deeper dive into Python functions.
+  
+- **02 Method.ipynb**  
+  Understanding Python methods and their applications.
+  
+- **03 Lambda Expression**  
+  Mastering Python's lambda functions for concise coding.
+  
+- **04 Local & Global Statements**  
+  Learn the difference between local and global variables.
+  
+- **05 Generators and Iterators**  
+  Understand Python's generators and iterators for efficient looping.
+  
+- **06 *args & **kwargs**  
+  Learn about variable-length arguments in Python.
+  
+- **07 Basic Function Examples**  
+  Examples of basic Python functions to reinforce learning.
 
 ---
 
-## 📝 **Topics Wise Questions**
-Here, you'll find questions organized by specific Python topics for easy practice and review.
+### 🧑‍💻 **Object-Oriented Programming (OOP)**
+
+Master OOP concepts in Python to create cleaner and more efficient code.
+
+- **01 Abstraction**  
+  Understand the abstraction concept in Python OOP.
+  
+- **02 Class & Object**  
+  Learn the building blocks of Python OOP—classes and objects.
+  
+- **03 Inheritance**  
+  A detailed guide to Python inheritance.
+  
+- **04 Access Modifiers**  
+  Explore access modifiers like public, private, and protected.
+  
+- **05 Encapsulation**  
+  Learn how to encapsulate data within Python classes.
+  
+- **06 Polymorphism**  
+  Understand polymorphism in Python and how it enhances flexibility.
 
 ---
 
-## 📖 **Python Basic Topics**
-This section includes basic Python concepts and their explanations, perfect for beginners!
+## 🧩 **Additional Python Topics**
+
+Here are some additional advanced topics that will enhance your problem-solving and coding skills:
+
+- **13 Counter, OS, and Regex**  
+  Learn how to use the `Counter` class, interact with the OS, and work with regular expressions (Regex).
+  
+- **14 Decorators**  
+  Master Python decorators to write cleaner, more efficient code.
+  
+- **15 Threading**  
+  Learn about threading in Python for concurrent programming.
+  
+- **16 Unit Testing**  
+  A comprehensive guide to Python's `unittest` framework to ensure your code is bug-free.
 
 ---
 
-## 🧑‍🏫 **Functions**
-Learn everything about Python functions, including definitions, arguments, return values, and more!
+## 📚 **Topic-Wise Questions**
 
----
-
-## 🧳 **Object-Oriented Programming**
-Understand the key concepts of OOP in Python: classes, objects, inheritance, and polymorphism.
-
----
-
-## ⚙️ **Modules and Packages**
-A guide to Python modules and packages, including how to structure them for large projects.
-
----
-
-## 🛠️ **Error Handling**
-Explore Python’s error handling capabilities using `try`, `except`, and `finally` for robust code.
-
----
-
-## 🌟 **if __name__ == '__main__'**
-A detailed look at the significance of this special Python construct for script execution control.
-
----
-
-## 🌱 **Virtual Environments**
-Learn how to create and manage isolated Python environments for better project dependency management.
-
----
-
-## 📊 **Streamlit**
-A hands-on guide to building interactive web apps with Streamlit in Python.
-
----
-
-## 🗂️ **File and Date Handling**
-Master reading, writing, and manipulating files, as well as handling date and time in Python.
-
----
-
-## 🔍 **Counter, OS, and Regex**
-An introduction to Python’s built-in `collections.Counter`, interacting with the OS, and using regular expressions (Regex).
-
----
-
-## 🎨 **Decorators**
-Understand and implement Python decorators for more elegant and efficient code.
-
----
-
-## 🧵 **Threading**
-Learn how to perform concurrent execution in Python through threading.
-
----
-
-## 🧪 **Unit Testing**
-Write tests to ensure your code runs as expected with Python’s built-in `unittest` framework.
+For structured learning, explore the **topic_wise_questions.txt** file, which organizes questions and problems based on specific Python topics. It’s perfect for exam preparation or self-study.
 
 ---
 
 ## 🚀 **Projects in Python**
-Explore several Python-based projects that I’ve built to put theory into practice. These include tools, applications, and utilities that demonstrate advanced Python concepts.
 
-### 📝 **Task Manager**
-A task management application built in Python to manage daily activities and tasks.
+Explore several Python-based projects that demonstrate real-world applications of the concepts you've learned. These projects are designed to challenge and refine your Python skills.
 
 ---
 
-## 🧑‍💻 **API Projects**
-Dive into Python-based API development, learn how to create and consume APIs effectively.
-
----
-
-## 🕸️ **Django**
-A collection of resources for Django, the high-level Python web framework.
-
----
-
-## 🐍 **Python Development**
-An all-encompassing section for Python developers, including best practices, tools, and libraries.
-
----
-
-## 🗄️ **SQL and Python Integration**
-Learn how to work with SQL databases using Python to execute queries and handle data.
-
----
-
-Feel free to explore these sections, check out my code, and don't forget to ⭐️ any projects you find useful!
+Feel free to explore each of these sections, dive into the notebooks, and try the code yourself. If you find any of these projects or problems useful, don't forget to ⭐️ them!
